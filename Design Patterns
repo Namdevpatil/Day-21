@@ -1,0 +1,15 @@
+Design patterns: The design patterns are well-proved solutions for solving the 
+===============  particular/specific problem statement or task.
+
+Problem Statement-1: let consider we want to create a class for which only one instance/object
+-------------------  should be created and that instance/object can shared among the other classes.
+
+Singleton design pattern(Creational Design Pattern)
+
+Rules to create Singleton Object:
+================================
+
+1. declare static fields
+2. make the constructor scope as private
+3. create static factory method
+
